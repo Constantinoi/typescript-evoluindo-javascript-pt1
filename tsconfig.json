@@ -1,0 +1,14 @@
+{ ///opcoes de compilacao
+    "compilerOptions": {
+        //local de gravar os arquivos js
+        "outDir": "dist/js/",
+        //versao que eu quero que ele converta meu js
+        "target": "ES6",
+        //nao gerar arquivos se tiver erro
+        "noEmitOnError": true
+    },
+    //Quais arquivos eu quero que ele pegue 
+    "include": [
+        "app/**/*"
+    ]
+}

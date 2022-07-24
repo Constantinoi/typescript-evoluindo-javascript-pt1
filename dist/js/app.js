@@ -1,8 +1,4 @@
 import { Negociacao } from './models/negociacao.js';
-
-const negociacao = new Negociacao(new Date(),10,100);
-console.log(negociacao);
-negociacao.quatidade = 10000;
-console.log(negociacao);
-
-console.log("volume: "+negociacao.volume)
+const negociacao = new Negociacao(new Date(), 10, 100);
+console.log("volume: " + negociacao.volume);
+alert('oi test2');
