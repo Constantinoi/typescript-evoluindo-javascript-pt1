@@ -5,7 +5,9 @@
         //versao que eu quero que ele converta meu js
         "target": "ES6",
         //nao gerar arquivos se tiver erro
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        //obriga o uso da tipagem
+        "noImplicitAny": true
     },
     //Quais arquivos eu quero que ele pegue 
     "include": [
